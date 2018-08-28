@@ -1,0 +1,30 @@
+{
+  "name": "boilerplate-ko",
+  "version": "0.0.0",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "chalk": "~0.4.0",
+    "deeply": "~0.1.0",
+    "event-stream": "~3.1.0",
+    "gulp": "^3.6.2",
+    "gulp-babel": "^5.2.1",
+    "gulp-clean": "~0.2.4",
+    "gulp-concat": "~2.2.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-filter": "^3.0.1",
+    "gulp-html-replace": "~1.0.0",
+    "gulp-replace": "~0.2.0",
+    "gulp-requirejs-bundler": "^0.1.1",
+    "gulp-uglify": "~0.2.1",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.10",
+    "karma-babel-preprocessor": "^5.2.2",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-jasmine": "^0.3.6",
+    "karma-requireglobal-preprocessor": "^0.0.0",
+    "karma-requirejs": "^0.2.2",
+    "object-assign": "^4.0.1",
+    "requirejs": "^2.1.11",
+    "slash": "^1.0.0"
+  }
+}

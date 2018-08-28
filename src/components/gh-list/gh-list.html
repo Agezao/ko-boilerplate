@@ -1,0 +1,7 @@
+<p data-bind='visible: users().length <= 0'>You have no users</p>
+
+<ul data-bind="foreach: users">
+  <li>
+    <a data-bind="attr: { href: html_url, title: login }"><small data-bind="text: login"></small></a>
+  </li>
+</ul>
