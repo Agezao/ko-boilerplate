@@ -2,7 +2,9 @@
 
 <p>Click the button to load users</p>
 
-<button data-bind='click: loadUsers'>Load Users</button>
+<button data-bind='click: loadUsers' type="button" class="btn btn-primary" data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-content="Load Github Users">
+  Load Users
+</button>
 
 <br />
 <gh-list params="users: users"></gh-list>

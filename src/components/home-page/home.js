@@ -5,6 +5,7 @@ import GithubService from '../../services/github.service';
 class HomeViewModel {
     constructor(route) {
         this.users = ko.observableArray([]);
+        $('*').popover();
     }
     
     loadUsers() {
